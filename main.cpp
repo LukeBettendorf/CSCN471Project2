@@ -43,7 +43,7 @@ void wait();
 int main()
 {
     //In cout statement below substitute your name and lab number
-    cout << "Your name -- Lab Number" << endl << endl;
+    cout << "Gideon Walker, Luke Bettendorf -- Lab #03" << endl << endl;
 
 
     //Variable declarations
