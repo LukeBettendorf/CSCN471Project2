@@ -42,10 +42,23 @@ void printGeneralInformation();
 void getCustomerInformation();
 float calcMembershipCost();
 
+void printGeneralInformation(){
+    cout << "The cost to become a member of a fitness center is as follows:\n" <<
+    "(a) the senior citizens monthly membership discount is 30%\n" <<
+	"(b) the discount for chosing to prepay the annual membership cost is 15%\n" << 
+    "and (c) if more than five personal training sessions are bought and paid for,\n" << 
+    "the discount on each session is 20% (the discounts in a and b above do not apply to personal training)\n";
+}
+
+void getCustomerInformation();
+float calcMembershipCost();
+
 int main()
 {
     //In cout statement below substitute your name and lab number
     cout << "Gideon Walker, Luke Bettendorf -- Lab #03" << endl << endl;
+
+    printGeneralInformation();
 
 
     //Variable declarations

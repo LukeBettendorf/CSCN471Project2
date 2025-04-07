@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/Lukeman/CLionProjects/CSCN471Project2/main'
+relocations:     []
+...
