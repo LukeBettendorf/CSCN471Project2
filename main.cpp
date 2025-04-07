@@ -38,7 +38,9 @@ const float PERSONAL_SESSION_RATE = 50.00;
 
 //Function prototypes
 void wait();
-
+void printGeneralInformation();
+void getCustomerInformation();
+float calcMembershipCost();
 
 int main()
 {
